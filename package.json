@@ -1,0 +1,30 @@
+{
+  "name": "test-theintern-webpack",
+  "version": "0.0.1",
+  "description": "test theintern with webpack",
+  "main": "./app/a.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "NODE_ENV=development webpack-dev-server --config webpack.config.js",
+    "test": "NODE_ENV=test ./node_modules/.bin/intern"
+  },
+  "author": "ethyde",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "intern": "^4.2.2",
+    "jsdom": "^11.11.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.25.0"
+  }
+}
