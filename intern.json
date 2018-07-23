@@ -1,5 +1,8 @@
 {
-  "plugins": ["./node_modules/babel-register/lib/node.js", "./tests/support/createwindow.js"],
+  "plugins": [
+    "./node_modules/babel-register/lib/node.js",
+    "./tests/support/createwindow.js"
+  ],
   "instrumenterOptions": {
     "esModules": true
   },
